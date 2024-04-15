@@ -2,15 +2,11 @@ import sounddevice as sd
 import os
 from scipy.io.wavfile import write
 from datetime import datetime
-import openai
-from openai import OpenAI
+from ..Utils.Utils import openai_settings
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
-client = OpenAI(
-    api_key = openai.api_key
-)
+client = openai_settings()
 
-AUDIO_PATH = '../Data/audio'
+AUDIO_PATH = './Data/audio'
 
 def voice_handler():
     duration = 5
