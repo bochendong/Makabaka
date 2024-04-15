@@ -31,5 +31,4 @@ def get_response(prompt):
 
 input = voice_handler()
 response = get_response(input)
-print(response)
-# text_to_speech(response)
+text_to_speech(response)

@@ -39,5 +39,3 @@ def voice_handler():
     return transcription
 
 
-print(voice_handler())
-
