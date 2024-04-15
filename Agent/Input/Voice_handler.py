@@ -8,6 +8,9 @@ client = openai_settings()
 
 AUDIO_PATH = './Data/audio'
 
+if not os.path.exists(AUDIO_PATH):
+    os.makedirs(AUDIO_PATH)
+    
 def voice_handler():
     duration = 5
     fs = 44100
