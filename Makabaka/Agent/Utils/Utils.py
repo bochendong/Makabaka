@@ -9,3 +9,11 @@ def openai_settings():
     )
 
     return client
+
+def get_prompt(prompt_path):
+    prompt = ""
+    with open(prompt_path, "r") as prompt_path:
+        for line in prompt_path:
+            prompt += line
+
+    return prompt
