@@ -1,14 +1,3 @@
-
-# A new method to record voice
-
-
-import speech_recognition as sr
-import os
-from datetime import datetime
-import openai
-from openai import OpenAI
-
-
 from Agent.Mode.ResponseMode import ResponseMode
 from Agent.Mode.SilenceMode import SilenceMode
 from Agent.IO.GetUserSettings.WelcomePage import welcome_page

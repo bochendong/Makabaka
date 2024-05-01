@@ -1,0 +1,6 @@
+{
+  "AudioPath": "./Data/Audio/",
+  "TranscriptionPath": "./Data/Transcripton/",
+  "TempPath": "./Data/Temp/",
+  "SampleVoicePath": "./Data/SampleVoice/"
+}

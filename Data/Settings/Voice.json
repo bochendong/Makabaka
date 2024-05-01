@@ -1,0 +1,7 @@
+{
+  "record_timeout": 2,
+  "phrase_timeout": 3,
+  "energy_threshold": 1000,
+  "sample_rate": 16000,
+  "dynamic_energy_threshold": false
+}

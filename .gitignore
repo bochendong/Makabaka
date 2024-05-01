@@ -2,7 +2,9 @@
 .AppleDouble
 .LSOverride
 
-Data/
+Audio/
+SampleVoice/
+Transcription/
 Temp/
 
 # Icon must end with two \r

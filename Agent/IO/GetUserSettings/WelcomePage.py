@@ -1,6 +1,6 @@
 from ..Output.Text2Speech import text_to_speech_local, text_to_speech
 from ..Input.VoiceHandler import capture_and_save_audio
-from ...Utils.ReadSettings import read_user_settings
+from ...Utils.ReadSettings import read_user_settings, create_data_folder
 
 
 import json
@@ -18,6 +18,7 @@ def welcome_page():
     print("\n----------------------------------------------------------------\n")
 
 
+    create_data_folder()
     data = read_user_settings()
 
     if (data["Username"] == "None"):
