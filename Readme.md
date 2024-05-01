@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="./Image/makabaka.png" width="300">
+  <img src="./Image/makabaka.png" width="600">
   <br>
 </h1>
 
