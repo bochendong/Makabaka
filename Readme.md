@@ -60,7 +60,7 @@ Highly scalable: the platform's open APIs and compatibility allow it to integrat
       <td align="center" valign="middle" width="128">
         <a href="https://github.com/herbundkraut">
           <img src="https://github.com/VGLALALA.png?size=128" />
-          Sting Zhang (Team Leader)
+          Sting Zhang
         </a>
       </td>
       <td align="center" valign="middle" width="128">
