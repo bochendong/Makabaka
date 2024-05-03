@@ -62,24 +62,32 @@ Highly scalable: the platform's open APIs and compatibility allow it to integrat
           <img src="https://github.com/VGLALALA.png?size=128" />
           Sting Zhang
         </a>
+        <br>
+        <sub><sup>Team Leader</sup></sub>
       </td>
       <td align="center" valign="middle" width="128">
          <a href="https://github.com/nancyzhao1">
           <img src="https://github.com/nancyzhao1.png?size=128" />
           Nancy Zhao
         </a>
+        <br>
+        <sub><sup>Team Member</sup></sub>
       </td>
       <td align="center" valign="middle" width="128">
          <a href="https://github.com/Tabel0112">
           <img src="https://github.com/Tabel0112.png?size=128" />
           Abel Chen
         </a>
+        <br>
+        <sub><sup>Team Member</sup></sub>
       </td>
       <td align="center" valign="middle" width="128">
          <a href="https://github.com/bochendong">
           <img src="https://github.com/bochendong.png?size=128" />
           Bochen Dong
         </a>
+        <br>
+        <sub><sup>Team Member</sup></sub>
       </td>
      
   </tbody>
