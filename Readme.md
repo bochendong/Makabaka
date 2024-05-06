@@ -58,7 +58,7 @@ Highly scalable: the platform's open APIs and compatibility allow it to integrat
 <table>
   <tbody>
       <td align="center" valign="middle" width="128">
-        <a href="https://github.com/herbundkraut">
+        <a href="https://github.com/VGLALALA.png">
           <img src="https://github.com/VGLALALA.png?size=128" />
           Sting Zhang
         </a>
