@@ -2,7 +2,6 @@ import os
 import openai
 from openai import OpenAI
 
-
 from ...Utils.ReadSettings import read_user_settings, get_prompt
 from ...Utils.SaveFile import save_transcription
 from ...IO.Output.Text2Speech import text_to_speech, text_to_speech_local, play_wav_file
