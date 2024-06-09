@@ -18,7 +18,7 @@ def get_app_to_open(request, appliaction_list, prompt_path):
             messages=[
                 {"role": "user", "content": prompt + request }
             ],
-            model = "gpt-4-1106-preview"
+            model = "gpt-4o"
         )
         rtn = response.choices[0].message.content
     except Exception as e:

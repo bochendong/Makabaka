@@ -55,7 +55,7 @@ def ResponseMode(current_mode):
                 save_transcription(transcription, "User")
 
                 response = get_response(transcription, "./Data/Prompt/Decision.txt")
-
+                print(response)
                 MakeAction(response, transcription)
 
                 

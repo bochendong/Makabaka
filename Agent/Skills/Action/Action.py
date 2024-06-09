@@ -24,7 +24,7 @@ def get_response(request, prompt_path):
             messages=[
                 {"role": "user", "content": prompt + request }
             ],
-            model = "gpt-4-1106-preview"
+            model = "gpt-4o"
         )
         rtn = response.choices[0].message.content
     except Exception as e:
@@ -44,7 +44,7 @@ def get_app_to_open(request, appliaction_list, prompt_path):
             messages=[
                 {"role": "user", "content": prompt + request }
             ],
-            model = "gpt-4-1106-preview"
+            model = "gpt-4o"
         )
         rtn = response.choices[0].message.content
     except Exception as e:
@@ -55,15 +55,15 @@ def get_app_to_open(request, appliaction_list, prompt_path):
 def MakeAction(response, transcription):
     data = read_user_settings()
     action, keyword = response.split("|")
-    action = action.lower().strip(" \"'`")
-
-    if (action == "search on google"):
+    action = int(action)
+    print(action)
+    if (action == 1):
         search_on_chrome(keyword)
-    elif (action == "play music"):
+    elif (action == 2):
         search_music_on_youtube(keyword)
-    elif (action == "show video"):
+    elif (action == 3):
         search_video_on_youtube(keyword)
-    elif (action == "direct response"):
+    elif (action == 6):
         save_transcription(keyword, 'System')
         if (data["VoiceSettings"] == "Default"):
             text_to_speech(keyword)
@@ -75,12 +75,12 @@ def MakeAction(response, transcription):
                                  input_path = f'./Data/Voice_sample/{data["Username"]}/sample_1.wav', 
                                  output_path = f"./Data/Temp/output.wav")
             play_wav_file("./Data/Temp/output.wav")
-    elif (action == "open application"):
+    elif (action == 5):
         try:
             open_app(transcription)
         except:
             print("There was an error detected to open the app.")
-    elif (action.lower().strip() == "check weather"):
+    elif (action == 4):
         open_weather_app()
     else:
-        print("I cannot handle this request")
+        print("There was an error")

@@ -19,28 +19,37 @@ Action | keyword
 
 Example Inputs and Outputs:
 - User input: "search python"
-  Output: "Search on Google | Python"
+  Output: "1 | Python"
 
 - User input: "play Mozart's music"
-  Output: "Play music | Mozart"
+  Output: "2 | Mozart, song"
 
 - User input: "show some video of Chinese cuisine"
-  Output: "Show video | Chinese cuisine"
+  Output: "3 | Chinese cuisine"
 
 - User input: "How is the weather tomorrow?"
-  Output: "Check weather | Tomorrow weather"
+  Output: "4 | Tomorrow weather"
+
+- User input: "Open Steam"
+  Output: "5 | Steam"
+
+- User input: "What is cos 30"
+  Output: " 6 | The answer of cos 30 is ...."
 
 - User input: "What's the temperature outside?"
-  Output: "Check weather | Current temperature outside"
+  Output: "4 | Current temperature outside"
+
+- User input: "give me some genshin impact's music"
+  Output: "2 | genshin impact, song"
 
 - User input: "Whare am I right now?"
-  Output: "Check loaction | Current Loaction"
+  Output: "1 | Current Loaction"
 
 - User input: "Open Wechat"
-  Output: "Open application | Wechat"
+  Output: "5 | Wechat"
 
 - User input: "What is the winner of the last world cup"
-  Output: " Direct response | The winner of the last world cup is ..."
+  Output: " 6 | The winner of the last world cup is ..."
 
-Here is my first request:
+Here is my request:
 
