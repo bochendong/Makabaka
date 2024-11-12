@@ -2,7 +2,6 @@ import io
 from pydub import AudioSegment
 from pydub.playback import play
 from ...Utils.ReadSettings import openai_settings
-from TTS.api import TTS
 
 import pyaudio  
 import wave  
@@ -24,12 +23,13 @@ def text_to_speech(text):
 
 
 def text_to_speech_local(text, user_language, input_path, output_path):
-    tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=False)
+    # tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=False)
 
-    tts.tts_to_file(text=text,
-                    file_path=output_path,
-                    speaker_wav=input_path,
-                    language=user_language)
+    # tts.tts_to_file(text=text,
+                    #file_path=output_path,
+                    #speaker_wav=input_path,
+                    #language=user_language)
+    pass
 
 def play_wav_file(file_path):
     chunk = 1024  
