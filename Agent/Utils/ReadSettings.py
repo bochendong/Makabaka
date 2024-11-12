@@ -2,6 +2,7 @@ import os
 import openai
 import json
 from openai import OpenAI
+from dotenv import load_dotenv
 
 def read_voice_settings():
     file_path = './Data/Settings/Voice.json'
@@ -32,7 +33,7 @@ def read_user_settings():
     return data
 
 def openai_settings():
-
+    load_dotenv()
     openai.api_key = os.environ["OPENAI_API_KEY"]
     client = OpenAI(
         api_key = openai.api_key
